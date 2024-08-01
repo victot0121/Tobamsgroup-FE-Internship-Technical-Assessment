@@ -1,7 +1,3 @@
-Sure, here's a README template for your project:
-
----
-
 # Tobamsgroup FE Internship Technical Assessment
 
 ## Project Overview
@@ -41,7 +37,7 @@ The design for the web page can be found [here](https://www.figma.com/design/PZ9
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tobamsgroup-fe-assessment.git
+   git clone https://github.com/victot0121/Tobamsgroup-FE-Internship-Technical-Assessment.git
    cd tobamsgroup-fe-assessment
    ```
 
@@ -87,14 +83,12 @@ yarn test
 ```
 
 ## Repository
-The GitHub repository for this project can be found [here](your-repo-link).
-
+The GitHub repository for this project can be found [here](https://github.com/victot0121/Tobamsgroup-FE-Internship-Technical-Assessment.git).
+ 
 ## Contributing
 If you have any questions or need clarifications, feel free to reach out.
 
 ## License
 This project is licensed under the MIT License.
 
----
-
-Good luck with your assessment! If you need further assistance, feel free to ask.
+git
