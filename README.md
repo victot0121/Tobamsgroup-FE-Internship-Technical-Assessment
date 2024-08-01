@@ -72,7 +72,7 @@ yarn start
 ```
 
 ## Deployment
-The application is deployed on [Vercel Pages]. You can view the deployed version [here](your-deployment-link).
+The application is deployed on [Vercel Pages]. You can view the deployed version [here](tobamsgroup-fe-internship-technical-assessment.vercel.app).
 
 ## Testing
 To run the tests:
