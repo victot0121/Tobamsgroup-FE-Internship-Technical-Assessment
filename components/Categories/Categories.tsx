@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Breakfast from "@/app/assets/Categories/Breakfast.svg";
 import Vegan from "@/app/assets/Categories/Vegan.svg";
 import Meat from "@/app/assets/Categories/Meat.svg";
@@ -24,7 +24,7 @@ interface Category {
 
 interface SimpleAndTastyProps {
     id: number;
-    imageData: any;
+    imageData: StaticImageData;
 }
 
 const categories: Category[] = [
@@ -75,10 +75,6 @@ const simpleAndTasty: SimpleAndTastyProps[] = [
     },
 ];
 
-
-
-
-
 const Categories: React.FC = () => {
     return (
         <div className='w-full h-[400px] mt-24'>
@@ -109,7 +105,7 @@ const Categories: React.FC = () => {
             <div className='mt-10 grid grid-cols-3 gap-4'>
                 {simpleAndTasty.map((data) => (
                     <div key={data.id} className='w-full flex justify-center items-center'>
-                        <Image src={data.imageData} alt={`Imaage ${data.id}`} width={300} height={300} className='object-contain' />
+                        <Image src={data.imageData} alt={`Image ${data.id}`} width={300} height={300} className='object-contain' />
                     </div>
                 ))}
             </div>
