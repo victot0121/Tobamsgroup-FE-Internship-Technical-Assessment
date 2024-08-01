@@ -32,7 +32,7 @@ const imageData: TryImageProps[] = [
 ]
 const Recipetoo = () => {
     return (
-        <div className='mt-[170px] w-full h-[600px]'>
+        <div className='mt-[170px] w-full h-[400px]'>
             <div className='w-full mt-24 flex flex-col items-center'>
                 <div className='text-center'>
                     <h3 className='font-bold text-3xl'>You may like these recipe too</h3>
